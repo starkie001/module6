@@ -6,7 +6,7 @@
 }
 
 .cat {
-  background: #f9f9f9;
+  background: #888;
   margin-bottom: 1rem;
   padding: 1rem;
   border-radius: 8px;
@@ -21,4 +21,15 @@
   color: #555;
   font-style: italic;
   margin: 0;
+}
+
+.cat-img {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  display: block;
 }
